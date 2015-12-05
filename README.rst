@@ -1,10 +1,12 @@
 A simple query builder for Amazon Cloudsearch Structured query parser.
 
-|travis| |coveralls| |downloads| |version| |license| |requires|
+|coveralls| |downloads| |version| |license| |requires|
 
 .. contents::
    :local:
    :depth: 1
+
+todo: rewrite
 
 Features
 ========

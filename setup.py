@@ -35,7 +35,8 @@ with open(os.path.join(here, 'csquery', '__init__.py'), 'r') as f:
 readme = open(os.path.join(here, 'README.rst')).read()
 
 requires = [
-    'six'
+    'six',
+    'cached-property'
 ]
 
 tests_require = [
@@ -63,14 +64,14 @@ classifiers = [
 ]
 
 setup(
-    name='csquery',
+    name='csqueryplus',
     version=version,
     description='A simple query builder for Amazon Cloudsearch structured query parser.',  # NOQA
     long_description=readme,
-    url='https://github.com/tell-k/csquery',
+    url='https://github.com/podhmo/csqueryplus',
     keywords='aws amazon cloudsearch querybuilder structured',
-    author='tell-k',
-    author_email='ffk2005 at gmail.com',
+    author='podhmo',
+    author_email='',
     classifiers=classifiers,
     install_requires=requires,
     tests_require=tests_require,
